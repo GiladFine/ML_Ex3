@@ -171,10 +171,10 @@ class NeuralNetwork(object):
                                                                                          validation_accuracies[-1]
                                                                                          ))
 
-        # Show accuracy graphs
-        show_accuracy_graph(training_accuracies, "Training Accuracy Graph")
-        show_accuracy_graph(validation_accuracies, "Validation Accuracy Graph")
-        plt.savefig("Accuracies.png")
+        # Show accuracy graphs - for report
+        #show_accuracy_graph(training_accuracies, "Training Accuracy Graph")
+        #show_accuracy_graph(validation_accuracies, "Validation Accuracy Graph")
+        #plt.savefig("Accuracies.png")
 
 
 if __name__ == "__main__":
